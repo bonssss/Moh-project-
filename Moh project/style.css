@@ -128,7 +128,7 @@
     object-fit: cover;
   } 
 
-  #search {
+  #searchMedicineInput{
     width: 60%;
     align-items: center;
     justify-content: center;
@@ -302,6 +302,8 @@ margin-left: 10px;
 .medicine-container img {
     margin-bottom: 10px;
     border-radius: 10px;
+    object-fit: cover;
+    width: 300px;
 }
 
 .medicine-container .medicinename {
@@ -332,6 +334,29 @@ margin-left: 10px;
   right: 10px;
 } */
 
+.medicine-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.medicine-table th, .medicine-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.medicine-table th {
+  background-color: #f2f2f2;
+}
+
+.medicine-container {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
 
 
 

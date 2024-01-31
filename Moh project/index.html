@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Search Medicine</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -36,16 +36,22 @@
     </header>
     <div class="home" id="home">
     <div class="input">
-      <input type="text" placeholder="search here" class="search" id="search" />
+      <input type="text" placeholder="search here" class="search" id="searchMedicineInput"   />
+      <!-- id="search" -->
       <br />
-      <button class="searchbutton">search</button>
+      <button class="searchbutton" onclick="searchMedicine()">search</button>
     </div>
+
+    <div id="searchResultsContainer">
+      <!-- Display search results here -->
+  </div>
     <p class="homep">Welcome Our Customer</p>
 
     <p class="description">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta nulla
-      eaque ad accusantium nam voluptatum eum odit error sapiente, reiciendis
-      molestiae expedita, assumenda nisi. Dolor tempore eum obcaecati eos. Ad.
+      Simply enter the name of the medicine you're interested in, and our search engine will provide you with a 
+      comprehensive overview. You'll find details such as the generic and brand names, 
+      price,  which pharmacy it located and where . Our database is regularly updated to ensure that you have access
+        to the most accurate and up-to-date information.
     </p>
   </div>
 
@@ -56,19 +62,18 @@
 
       <div class="contanier">
         <div class="about-img">
-          <img src="image/11.jpg" alt="" />
+          <img src="image/minis.png" alt="" />
         </div>
         <div class="content">
           <!-- <h1>About</h1> -->
           <h3>Ministry Of Health</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolore
-            ut! Temporibus maxime magnam, fuga nam animi, quam excepturi cum,
-            quibusdam explicabo aliquid molestiae tem pora aliquam est adipisci
-            pariatur deleniti. Fugit commodi soluta repellendus expedita iusto,
-            sapiente in sit, fugiat molestiae nulla hic obcaecati saepe quam
-            quod impedit officia ullam rem? Numquam mollitia \molestiae
-            nesciunt, minus iste quas e os consequuntur!
+           <b> Our Vision </b> <br>
+To see healthy, productive and prosperous Ethiopians.  <br>
+ <b>Our Mission </b> <br>
+“To promote the health and well-being of the society through providing and 
+regulating a comprehensive package of health 
+services of the highest possible quality in an equitable manner.”
           </p>
         </div>
       </div>
@@ -103,29 +108,33 @@
     <div class="medicine-wrapper">
       <div class="medicine" id="medicine">
         <div class="medicine-container">
-          <img src="image/moh.png" alt="" />
-          <h4 class="medicinename">Misntry oh</h4>
-          <p>sdfm,nsbv.,naj;fbg.dm cvg.jglqwe.fndm</p>
+          <img src="image/abilifymaint.jpg" alt="" />
+          <h4 class="medicinename">Abilify Maintena</h4>
+          <p>Abilify Maintena is also used for <br>
+             the ongoing treatment of people with <br> bipolar I disorder (manic-depressive disorder</p>
         </div>
         <div class="medicine-container">
-          <img src="image/moh.png" alt="" />
-          <h4 class="medicinename">Misntry oh</h4>
-          <p>sdfm,nsbv.,naj;fbg.dm cvg.jglqwe.fndm</p>
+          <img src="image/newqq.AdUwKytobV8g4h844QhcdAHaEJ" alt="" />
+          <h4 class="medicinename">Abilify Maintena</h4>
+          <p>Abilify Maintena is also used for <br>
+            the ongoing treatment of people with <br> bipolar I disorder (manic-depressive disorder</p>
         </div>
         <div class="medicine-container">
-          <img src="image/moh.png" alt="" />
-          <h4 class="medicinename">Misntry oh</h4>
-          <p>sdfm,nsbv.,naj;fbg.dm cvg.jglqwe.fndm</p>
+          <img src="image/insulin.jpg" alt="" />
+          <h4 class="medicinename">Insulin</h4>
+          <p>Insulin is a hormone produced by the pancreas that plays a
+             crucial role in regulating blood sugar (glucose) levels in the body.</p>
         </div>
         <div class="medicine-container">
-          <img src="image/moh.png" alt="" />
-          <h4 class="medicinename">Misntry oh</h4>
-          <p>sdfm,nsbv.,naj;fbg.dm cvg.jglqwe.fndm</p>
+          <img src="image/med2.jpg" alt="" />
+          <h4 class="medicinename">Paracetamol</h4>
+          <p>Paracetamol (acetaminophen) is a painkiller and fever reducer</p>
         </div>
         <div class="medicine-container">
-          <img src="image/moh.png" alt="" />
-          <h4 class="medicinename">Misntry oh</h4>
-          <p>sdfm,nsbv.,naj;fbg.dm cvg.jglqwe.fndm</p>
+          <img src="image/med3.jpg" alt="" />
+          <h4 class="medicinename">HIV Medicines</h4>
+          <p>HIV medicines are called antiretroviral therapy (ART)1. ART is recommended for everyone with HIV, 
+            and people with HIV should start ART as soon as possible1.</p>
         </div>
       </div>
       
@@ -172,9 +181,9 @@
       <div class="footer-content">
         <div class="about-footer">
           <p class="aboutus">About Us</p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
-          porro explicabo voluptatibus voluptatum numquam qui dolorem nihil
-          reprehenderit fuga quasi soluta rerum earum, sit accusamusaliquid.
+          To promote the health and well-being of the society through providing and 
+          regulating a comprehensive package of health 
+          services of the highest possible quality in an equitable manner.
         </div>
 
 
@@ -192,8 +201,8 @@
         <div class="footer-contact">
          <p class="contactus">Contact Us</p> 
          <P><i class="fas fa-map-marker-alt"></i>AddisAbaba,Ethiopia</P>
-          <p> <i class="fas fa-phone"></i>+25123345678</p>
-          <p><i class="fas fa-envelope"></i>abc@gmail.com</p>
+          <p> <i class="fas fa-phone"></i>011 551 7011</p>
+          <p><i class="fas fa-envelope"></i> info@moh.gov.et</p>
 
         </div>
       </div>
